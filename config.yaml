@@ -19,3 +19,11 @@ menu:
         - identifier: search
           name: Search
           url: /search/
+          
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+      
